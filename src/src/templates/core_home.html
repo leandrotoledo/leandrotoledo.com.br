@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lte IE 9]><link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css" media="screen" /><![endif]-->
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/1140.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/styles.css" type="text/css" media="screen" />
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/css3-mediaqueries.js"></script>
+    </head>
+    <body>
+        <div id="header" class="container">
+            <div class="row">
+                <div id="logo" class="threecol last"><img src="{{ STATIC_URL }}img/tux.png" /></div>
+            </div>
+        </div>
+
+        <div id="main" class="container">
+            <div class="row">
+                <div id="menu" class="threecol">
+                    <ul class="box">
+                        <li>$ ls -l</li>
+                        <li><a href="">home</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">about</a></li>
+                    </ul>
+                    <br />
+                    <form class="box">
+                        <label for="q">$ ./search</label>
+                        <input id="q" name="q" type="text" />
+                    </form>
+                    <br />
+                </div>
+
+                <div id="articles" class="ninecol last">
+                    <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                        <header>
+                            /* <br />
+                            <h2>* <span class="title">@title</span> <span itemprop="name">Lorem Ipsum</span></h2>
+                            <p>* <span class="author">@author</span> <span itemprop="author">Leandro Toledo</span></p>
+                            <p>* <span class="update">@update</span> <time datetime=""><span itemprop="datePublished">Dec 26, 2012 14:09</span></time></p>
+                            <p>* <span class="excerpt">@excerpt</span> <span>Resumo</span></p>
+                            <p>
+                                * <br />
+                                * This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License<br />
+                                * You may obtain a copy of the License at https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US<br />
+                                * <br />
+                            </p>
+                            <p>* <span class="keywords">@keywords</span> <span>Lorem</span>, <span>Ipsum</span>, <span>Lorem Ipsum</span></p>
+                            */ <br />
+                            <br />
+                        </header>
+
+                        <div class="content">
+                            TESTE
+                        </div>
+
+                        <footer>
+                            <p>:wq! ~/blog/lorem-ipsum.txt</p>
+                        </footer>
+                    </article>
+
+                    <br />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
